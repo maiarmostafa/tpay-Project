@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_4" width="48" height="22" viewBox="0 0 48 22">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="_Background" width="48" height="22" fill="#f2f2f2" rx="6"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="_Icon_Color" fill="#686868" d="M5 7.635L8.09 9.5l-.82-3.515L10 3.62l-3.595-.3L5 0 3.6 3.315 0 3.62l2.73 2.365L1.91 9.5z"/>
+        </clipPath>
+        <style>
+        </style>
+    </defs>
+    <rect id="_Background-2" width="48" height="22" fill="#fff" rx="6"/>
+    <g id="Mask_Group_4" clip-path="url(#clip-path)">
+        <g id="_Icon" transform="translate(6 5)">
+            <g id="Group_2" transform="translate(1 1)">
+                <path id="_Icon_Color-2" fill="#572589" d="M5 7.635L8.09 9.5l-.82-3.515L10 3.62l-3.595-.3L5 0 3.6 3.315 0 3.62l2.73 2.365L1.91 9.5z"/>
+            </g>
+        </g>
+        <text id="_Numbers" fill="#060606" font-family="Roboto-Bold, Roboto" font-size="12px" font-weight="700" letter-spacing="0.017em" transform="translate(22 18)">
+            <tspan x="0" y="0">4.9</tspan>
+        </text>
+    </g>
+</svg>
