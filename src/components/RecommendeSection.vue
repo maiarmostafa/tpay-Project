@@ -36,11 +36,7 @@
             :to="{
               name: 'GameDetailes',
               params: {
-                imgg: dataa.Image,
-                desc: dataa.Desc,
-                gamename: dataa.GameName,
-                down: dataa.downloadNo,
-                sub: dataa.subtitle,
+                id: dataa.id,
               },
             }"
           >

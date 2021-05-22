@@ -8,7 +8,7 @@ const routes = [
     component: Home,
   },
   {
-    path: "/game",
+    path: "/game/:id",
     name: "GameDetailes",
     component: GameDetailes,
     props: true,

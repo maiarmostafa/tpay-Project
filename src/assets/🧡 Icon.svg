@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Icon" width="12" height="12" viewBox="0 0 12 12">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="_Icon_Color" fill="#686868" d="M5 7.635L8.09 9.5l-.82-3.515L10 3.62l-3.595-.3L5 0 3.6 3.315 0 3.62l2.73 2.365L1.91 9.5z"/>
+        </clipPath>
+        <style>
+        </style>
+    </defs>
+    <g id="Group_2" transform="translate(1 1)">
+        <path id="_Icon_Color-2" fill="#572589" d="M5 7.635L8.09 9.5l-.82-3.515L10 3.62l-3.595-.3L5 0 3.6 3.315 0 3.62l2.73 2.365L1.91 9.5z"/>
+    </g>
+</svg>

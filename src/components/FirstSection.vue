@@ -15,9 +15,11 @@
             <p class="card-text">
               {{ data.subtitle }}
             </p>
-            <p class="card-text">
-              {{ data.Desc }}
-            </p>
+            <div style="height: 85px; overflow:hidden;">
+              <p v-for="(data1, i) in data.Desc" :key="i" class="card-text">
+                {{ data.Desc[i] }}
+              </p>
+            </div>
             <p class="card-text">
               <small class="text-muted">{{ data.downloadNo }}</small>
             </p>
@@ -25,11 +27,7 @@
               :to="{
                 name: 'GameDetailes',
                 params: {
-                  imgg: data.Image,
-                  desc: data.Desc,
-                  gamename: data.GameName,
-                  down: data.downloadNo,
-                  sub: data.subtitle,
+                  id: data.id,
                 },
               }"
             >

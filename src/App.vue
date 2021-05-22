@@ -46,14 +46,14 @@ export default {
     this.games = await this.fetchGames();
     this.bannerData = this.games[0];
     let origin = this.games.filter(
-      (g) => g.Recommende === true && g.Popular === false
+      (g) => g.Recommended === true && g.Popular === false
     );
     this.recom = origin.map((g) => ({
       ...g,
       GameName: g.GameName.substring(0, 25) + "...",
     }));
     let origin2 = this.games.filter(
-      (g) => g.Recommende === false && g.Popular === true
+      (g) => g.Recommended === false && g.Popular === true
     );
     this.popu = origin2.map((g) => ({
       ...g,

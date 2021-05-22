@@ -13,6 +13,13 @@
           src="../assets/threedots.svg"
           @click="$emit('toggleShowLoginform')"
         />
+        <img
+          src="../assets/close.svg"
+          class="me-2"
+          style="width: 10px;"
+          v-if="isInputvisiable"
+          @click="oninputUNvisiable"
+        />
         <input
           type="text"
           class="Inputround me-2"
@@ -32,7 +39,10 @@ export default {
   },
   methods: {
     oninputvisiable() {
-      this.isInputvisiable = !this.isInputvisiable;
+      this.isInputvisiable = true;
+    },
+    oninputUNvisiable() {
+      this.isInputvisiable = false;
     },
   },
 };
