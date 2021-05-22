@@ -2,7 +2,13 @@
   <div class="row m-0 bg-white shadow w-100">
     <div class="scrollable-Wrapper">
       <div v-for="(data, i) in texts" :key="i" class="d-inline">
-        <div class="mb-3 mt-3 me-2 ps-3 pe-3 btn btncolor">{{ data }}</div>
+        <div
+          class="mb-3 mt-3 me-2 ps-3 pe-3 btn btncolor"
+          :style="data === 'Sports' ? 'color:white;background:#572589' : ''"
+        >
+          {{ data }}
+          <img src="../assets/mark.svg" v-if="data === 'Sports'" />
+        </div>
       </div>
     </div>
   </div>
